@@ -1,0 +1,7 @@
+[build]
+
+commad="yarn build"
+
+publish="build/"
+
+functions="functions"

@@ -1,0 +1,19 @@
+.iconcolor{
+  color: red!important;
+  font-size: 18px!important;
+  /* transition: font-size 2s!important; */
+}
+
+.iconcolor:hover{
+  color: red!important;
+  font-size: 22px!important;
+} 
+
+.fixover{
+  height: 450px;
+  overflow-y: scroll!important;
+}
+.headertext{
+  color: white;
+  text-shadow: 2px 2px 8px #FF0000;
+}
