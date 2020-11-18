@@ -7,7 +7,7 @@ exports.handler = async (event) => {
     const datar = JSON.parse(event.body)
 
     // console.log(datar,'data')
-    const adminClient = new fauna.Client({secret:process.env.FAUNADB_key})
+    const adminClient = new fauna.Client({secret:process.env.FAUNADB_KEY})
 
     const result = await adminClient.query(
 
